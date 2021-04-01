@@ -37,6 +37,14 @@ class CarDetailViewController: UIViewController {
         
         collectionView.delegate = self
         collectionView.dataSource = self
+        
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let orderVC = segue.destination as? OrderViewController {
+            orderVC.car = self.car
+        }
     }
 }
 

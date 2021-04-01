@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -301,27 +302,27 @@
             </objects>
             <point key="canvasLocation" x="1781.1594202898552" y="72.991071428571431"/>
         </scene>
-        <!--View Controller-->
+        <!--Order View Controller-->
         <scene sceneID="FVj-zK-gCh">
             <objects>
-                <viewController id="oOU-Ku-hc8" sceneMemberID="viewController">
+                <viewController id="oOU-Ku-hc8" customClass="OrderViewController" customModule="Cardeal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kH0-hR-Z0N">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="payment_background" translatesAutoresizingMaskIntoConstraints="NO" id="Tu2-T8-Td6">
-                                <rect key="frame" x="-273" y="71" width="960" height="808"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="payment_background" translatesAutoresizingMaskIntoConstraints="NO" id="Tu2-T8-Td6">
+                                <rect key="frame" x="-273" y="71" width="960" height="825"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="43" translatesAutoresizingMaskIntoConstraints="NO" id="MxL-xx-SqZ">
                                 <rect key="frame" x="10" y="100" width="394" height="796"/>
                                 <subviews>
                                     <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BdK-LZ-tvu" customClass="CardView" customModule="Cardeal" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="394" height="160"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="150"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aw2-TH-W1p">
-                                                <rect key="frame" x="20" y="10" width="354" height="125"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ggg" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aw2-TH-W1p">
+                                                <rect key="frame" x="20" y="10" width="354" height="115"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="125" id="X9v-tS-KiR"/>
                                                     <constraint firstAttribute="width" constant="354" id="exE-Zc-es1"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -334,6 +335,7 @@
                                         <constraints>
                                             <constraint firstItem="aw2-TH-W1p" firstAttribute="top" secondItem="BdK-LZ-tvu" secondAttribute="topMargin" constant="2" id="8ub-3h-YuE"/>
                                             <constraint firstAttribute="trailingMargin" secondItem="aw2-TH-W1p" secondAttribute="trailing" constant="12" id="Da5-eT-H5z"/>
+                                            <constraint firstAttribute="height" constant="150" id="Db8-XY-iMI"/>
                                             <constraint firstItem="aw2-TH-W1p" firstAttribute="leading" secondItem="BdK-LZ-tvu" secondAttribute="leadingMargin" constant="12" id="GwJ-wg-Y2B"/>
                                             <constraint firstAttribute="bottomMargin" secondItem="aw2-TH-W1p" secondAttribute="bottom" constant="17" id="UbU-Xi-GPd"/>
                                         </constraints>
@@ -344,7 +346,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fjf-Ek-Ufm" customClass="CardView" customModule="Cardeal" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="203" width="394" height="500"/>
+                                        <rect key="frame" x="0.0" y="193" width="394" height="500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Payment Method" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3w-wd-Rb5">
                                                 <rect key="frame" x="20" y="8" width="290" height="100"/>
@@ -357,10 +359,10 @@
                                                 <color key="textColor" name="Color-1"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="ST5-69-CM0">
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="ST5-69-CM0">
                                                 <rect key="frame" x="10" y="128" width="374" height="226"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2K-mn-h4X">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2K-mn-h4X" customClass="CardView" customModule="Cardeal" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="165" height="226"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="creditcard" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hzn-9b-a0P">
@@ -390,19 +392,24 @@
                                                             <constraint firstAttribute="trailing" secondItem="hzn-9b-a0P" secondAttribute="trailing" constant="22" id="tL1-gI-4yQ"/>
                                                             <constraint firstAttribute="trailingMargin" secondItem="RVK-k2-4Vh" secondAttribute="trailing" constant="5" id="vIV-4a-Sni"/>
                                                         </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="20"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KDO-Zi-WQF">
-                                                        <rect key="frame" x="184" y="0.0" width="190" height="226"/>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KDO-Zi-WQF" customClass="CardView" customModule="Cardeal" customModuleProvider="target">
+                                                        <rect key="frame" x="199" y="0.0" width="175" height="226"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dollarsign.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="BVV-VD-pbH">
-                                                                <rect key="frame" x="10" y="18.5" width="121" height="120"/>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BVV-VD-pbH">
+                                                                <rect key="frame" x="22" y="16" width="121" height="125"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="height" constant="121" id="SVo-Yb-Yrh"/>
                                                                     <constraint firstAttribute="width" constant="121" id="hAQ-xo-UuG"/>
                                                                 </constraints>
+                                                                <imageReference key="image" image="dollarsign.circle" catalog="system" symbolScale="large"/>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bank Ending in" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JuQ-OR-Yhg">
-                                                                <rect key="frame" x="10" y="149" width="134" height="69"/>
+                                                                <rect key="frame" x="18" y="149" width="134" height="69"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="134" id="58p-Zu-N3s"/>
                                                                     <constraint firstAttribute="height" constant="69" id="ItL-nx-KK0"/>
@@ -415,12 +422,17 @@
                                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="JuQ-OR-Yhg" secondAttribute="trailing" id="C8K-0O-utE"/>
-                                                            <constraint firstItem="BVV-VD-pbH" firstAttribute="leading" secondItem="KDO-Zi-WQF" secondAttribute="leading" constant="10" id="LIl-Ee-por"/>
+                                                            <constraint firstItem="BVV-VD-pbH" firstAttribute="leading" secondItem="KDO-Zi-WQF" secondAttribute="leading" constant="22" id="LIl-Ee-por"/>
                                                             <constraint firstItem="BVV-VD-pbH" firstAttribute="top" secondItem="KDO-Zi-WQF" secondAttribute="top" constant="18" id="hc9-j4-cfx"/>
-                                                            <constraint firstItem="JuQ-OR-Yhg" firstAttribute="leading" secondItem="KDO-Zi-WQF" secondAttribute="leadingMargin" constant="2" id="r1r-MS-zlZ"/>
+                                                            <constraint firstItem="JuQ-OR-Yhg" firstAttribute="leading" secondItem="KDO-Zi-WQF" secondAttribute="leadingMargin" constant="10" id="r1r-MS-zlZ"/>
                                                             <constraint firstItem="JuQ-OR-Yhg" firstAttribute="bottom" secondItem="KDO-Zi-WQF" secondAttribute="bottomMargin" id="rWH-w8-2bq"/>
                                                             <constraint firstItem="JuQ-OR-Yhg" firstAttribute="top" secondItem="BVV-VD-pbH" secondAttribute="bottom" constant="10" id="uMX-fq-KRT"/>
                                                         </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="20"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
                                                     </view>
                                                 </subviews>
                                             </stackView>
@@ -438,16 +450,18 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0h-L2-OZk">
                                                         <rect key="frame" x="178" y="0.0" width="79" height="79"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="79" id="xL2-3Z-0cQ"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="79" id="p3V-FA-Zg6"/>
                                                         </constraints>
                                                         <state key="normal" title="Button" image="bank"/>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="257" id="Qkf-vx-dvX"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Y0h-L2-OZk" secondAttribute="bottom" id="SVb-UQ-4hS"/>
                                                     <constraint firstItem="i94-TE-8Md" firstAttribute="top" secondItem="UO8-K9-Gah" secondAttribute="top" id="Zwo-fK-8NW"/>
                                                     <constraint firstAttribute="height" constant="79" id="mDT-HM-jHA"/>
                                                     <constraint firstAttribute="bottom" secondItem="i94-TE-8Md" secondAttribute="bottom" id="pOq-Lk-62D"/>
+                                                    <constraint firstItem="Y0h-L2-OZk" firstAttribute="top" secondItem="UO8-K9-Gah" secondAttribute="top" id="tJY-dK-jv9"/>
                                                 </constraints>
                                             </stackView>
                                         </subviews>
@@ -472,12 +486,15 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBS-xh-gTJ" customClass="RoundedButton" customModule="Cardeal" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="746" width="394" height="50"/>
+                                        <rect key="frame" x="0.0" y="736" width="394" height="60"/>
                                         <color key="backgroundColor" red="0.67633878150000004" green="0.64457306219999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="elk-uX-3xK"/>
+                                            <constraint firstAttribute="height" constant="60" id="4SS-bE-YLr"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <state key="normal" title="Order">
+                                            <color key="titleColor" name="Color-1"/>
+                                        </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                 <real key="value" value="20"/>
@@ -486,24 +503,38 @@
                                     </button>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="hBS-xh-gTJ" secondAttribute="bottom" id="hPt-EH-Uh7"/>
                                     <constraint firstItem="Fjf-Ek-Ufm" firstAttribute="leading" secondItem="MxL-xx-SqZ" secondAttribute="leading" id="kRu-Q9-gsS"/>
-                                    <constraint firstItem="hBS-xh-gTJ" firstAttribute="top" secondItem="Fjf-Ek-Ufm" secondAttribute="bottom" constant="43" id="vLS-C7-FhN"/>
                                 </constraints>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="gQi-sF-c68">
+                                <rect key="frame" x="50" y="859" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OmR-tB-sFj"/>
                         <color key="backgroundColor" red="1" green="0.7774992774980729" blue="0.75063613756518555" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="MxL-xx-SqZ" firstAttribute="top" secondItem="kH0-hR-Z0N" secondAttribute="top" constant="100" id="DAX-oZ-Ag3"/>
                             <constraint firstItem="OmR-tB-sFj" firstAttribute="trailing" secondItem="MxL-xx-SqZ" secondAttribute="trailing" constant="10" id="NiR-JP-Mir"/>
-                            <constraint firstItem="MxL-xx-SqZ" firstAttribute="height" secondItem="Tu2-T8-Td6" secondAttribute="height" multiplier="0.985149" id="ctB-Nq-fzS"/>
-                            <constraint firstItem="Tu2-T8-Td6" firstAttribute="centerY" secondItem="OmR-tB-sFj" secondAttribute="centerY" id="eOs-4B-ErM"/>
                             <constraint firstAttribute="bottom" secondItem="MxL-xx-SqZ" secondAttribute="bottom" id="ff5-47-4K8"/>
                             <constraint firstItem="MxL-xx-SqZ" firstAttribute="leading" secondItem="OmR-tB-sFj" secondAttribute="leading" constant="10" id="iGQ-Ov-cjU"/>
-                            <constraint firstItem="Tu2-T8-Td6" firstAttribute="centerX" secondItem="OmR-tB-sFj" secondAttribute="centerX" id="uc2-Gc-NSV"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dtE-65-deV"/>
+                    <connections>
+                        <outlet property="activitIndicator" destination="gQi-sF-c68" id="Pvh-wG-ejq"/>
+                        <outlet property="bankImage" destination="BVV-VD-pbH" id="Ck0-Ox-Vns"/>
+                        <outlet property="bankNumberLabel" destination="JuQ-OR-Yhg" id="FuA-5v-4q1"/>
+                        <outlet property="cardImage" destination="hzn-9b-a0P" id="Q3Q-3S-KiM"/>
+                        <outlet property="cardNumberLabel" destination="RVK-k2-4Vh" id="Ija-9R-O6D"/>
+                        <outlet property="changeBankButton" destination="Y0h-L2-OZk" id="v43-SN-34e"/>
+                        <outlet property="changeCardButton" destination="i94-TE-8Md" id="Qfb-ta-iWB"/>
+                        <outlet property="orderButton" destination="hBS-xh-gTJ" id="vtq-Dx-vF8"/>
+                        <outlet property="purchaseDetailsLabel" destination="aw2-TH-W1p" id="jxF-78-ciZ"/>
+                        <outlet property="selectBankView" destination="KDO-Zi-WQF" id="dLg-mL-lI3"/>
+                        <outlet property="selectCardView" destination="c2K-mn-h4X" id="iFS-oy-d7y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jb0-xq-vFI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -533,7 +564,7 @@
             <size key="intrinsicContentSize" width="119" height="36"/>
         </designable>
         <designable name="hBS-xh-gTJ">
-            <size key="intrinsicContentSize" width="46" height="30"/>
+            <size key="intrinsicContentSize" width="55" height="36"/>
         </designable>
     </designables>
     <resources>

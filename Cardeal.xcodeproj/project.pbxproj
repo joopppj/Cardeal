@@ -15,6 +15,7 @@
 		4F260AB2260F76F500F6FAC7 /* CarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F260AB0260F76F500F6FAC7 /* CarCell.xib */; };
 		4F260ABD260F840F00F6FAC7 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F260ABC260F840F00F6FAC7 /* IntExtensions.swift */; };
 		4F8699E126112DF80015AF80 /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8699E026112DF70015AF80 /* CarDetailViewController.swift */; };
+		4F9FDE8C2616074A00A909F9 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FDE8B2616074A00A909F9 /* OrderViewController.swift */; };
 		4FAFC32F260CEC8000CF026A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC32E260CEC8000CF026A /* AppDelegate.swift */; };
 		4FAFC331260CEC8000CF026A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC330260CEC8000CF026A /* SceneDelegate.swift */; };
 		4FAFC333260CEC8000CF026A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC332260CEC8000CF026A /* HomeViewController.swift */; };
@@ -36,6 +37,7 @@
 		4F260AB0260F76F500F6FAC7 /* CarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarCell.xib; sourceTree = "<group>"; };
 		4F260ABC260F840F00F6FAC7 /* IntExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
 		4F8699E026112DF70015AF80 /* CarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
+		4F9FDE8B2616074A00A909F9 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		4FAFC32B260CEC8000CF026A /* Cardeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FAFC32E260CEC8000CF026A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FAFC330260CEC8000CF026A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				4FAFC334260CEC8000CF026A /* Main.storyboard */,
 				4F8699E026112DF70015AF80 /* CarDetailViewController.swift */,
 				4FAFC343260CEDAD00CF026A /* DemoData.swift */,
+				4F9FDE8B2616074A00A909F9 /* OrderViewController.swift */,
 				4FAFC337260CEC8100CF026A /* Assets.xcassets */,
 				4FAFC339260CEC8100CF026A /* LaunchScreen.storyboard */,
 				4FAFC33C260CEC8100CF026A /* Info.plist */,
@@ -226,6 +229,7 @@
 				4FAFC344260CEDAD00CF026A /* DemoData.swift in Sources */,
 				4F1D3B262613836A0014696C /* CollectionImageViewCell.swift in Sources */,
 				4FAFC34C260CF0AB00CF026A /* RoundedButton.swift in Sources */,
+				4F9FDE8C2616074A00A909F9 /* OrderViewController.swift in Sources */,
 				4FAFC349260CF0A200CF026A /* ShadowCardView.swift in Sources */,
 				4FAFC353260E101100CF026A /* LoginViewController.swift in Sources */,
 				4F260ABD260F840F00F6FAC7 /* IntExtensions.swift in Sources */,
