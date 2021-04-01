@@ -3,27 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F049579260E1B600067D0AB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F049578260E1B600067D0AB /* CardView.swift */; };
+		4F1D3B262613836A0014696C /* CollectionImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D3B252613836A0014696C /* CollectionImageViewCell.swift */; };
+		4F260A9F260E6A7600F6FAC7 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F260A9E260E6A7600F6FAC7 /* Car.swift */; };
+		4F260AAB260F657300F6FAC7 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4F260AAA260F657300F6FAC7 /* Kingfisher */; };
+		4F260AB1260F76F500F6FAC7 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F260AAF260F76F500F6FAC7 /* CarCell.swift */; };
+		4F260AB2260F76F500F6FAC7 /* CarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F260AB0260F76F500F6FAC7 /* CarCell.xib */; };
+		4F260ABD260F840F00F6FAC7 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F260ABC260F840F00F6FAC7 /* IntExtensions.swift */; };
+		4F8699E126112DF80015AF80 /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8699E026112DF70015AF80 /* CarDetailViewController.swift */; };
 		4FAFC32F260CEC8000CF026A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC32E260CEC8000CF026A /* AppDelegate.swift */; };
 		4FAFC331260CEC8000CF026A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC330260CEC8000CF026A /* SceneDelegate.swift */; };
-		4FAFC333260CEC8000CF026A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC332260CEC8000CF026A /* ViewController.swift */; };
+		4FAFC333260CEC8000CF026A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC332260CEC8000CF026A /* HomeViewController.swift */; };
 		4FAFC336260CEC8000CF026A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAFC334260CEC8000CF026A /* Main.storyboard */; };
 		4FAFC338260CEC8100CF026A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FAFC337260CEC8100CF026A /* Assets.xcassets */; };
 		4FAFC33B260CEC8100CF026A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAFC339260CEC8100CF026A /* LaunchScreen.storyboard */; };
+		4FAFC344260CEDAD00CF026A /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC343260CEDAD00CF026A /* DemoData.swift */; };
+		4FAFC349260CF0A200CF026A /* ShadowCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC348260CF0A200CF026A /* ShadowCardView.swift */; };
+		4FAFC34C260CF0AB00CF026A /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC34B260CF0AB00CF026A /* RoundedButton.swift */; };
+		4FAFC353260E101100CF026A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC351260E101100CF026A /* LoginViewController.swift */; };
+		4FAFC354260E101100CF026A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAFC352260E101100CF026A /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F049578260E1B600067D0AB /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4F1D3B252613836A0014696C /* CollectionImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionImageViewCell.swift; sourceTree = "<group>"; };
+		4F260A9E260E6A7600F6FAC7 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		4F260AAF260F76F500F6FAC7 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		4F260AB0260F76F500F6FAC7 /* CarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarCell.xib; sourceTree = "<group>"; };
+		4F260ABC260F840F00F6FAC7 /* IntExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		4F8699E026112DF70015AF80 /* CarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
 		4FAFC32B260CEC8000CF026A /* Cardeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FAFC32E260CEC8000CF026A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FAFC330260CEC8000CF026A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4FAFC332260CEC8000CF026A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FAFC332260CEC8000CF026A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4FAFC335260CEC8000CF026A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FAFC337260CEC8100CF026A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FAFC33A260CEC8100CF026A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FAFC33C260CEC8100CF026A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAFC343260CEDAD00CF026A /* DemoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		4FAFC348260CF0A200CF026A /* ShadowCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowCardView.swift; sourceTree = "<group>"; };
+		4FAFC34B260CF0AB00CF026A /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		4FAFC351260E101100CF026A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		4FAFC352260E101100CF026A /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +56,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F260AAB260F657300F6FAC7 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F260A9D260E6A3400F6FAC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F260A9E260E6A7600F6FAC7 /* Car.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F260AA2260E74D500F6FAC7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4F260AAF260F76F500F6FAC7 /* CarCell.swift */,
+				4F260AB0260F76F500F6FAC7 /* CarCell.xib */,
+				4F1D3B252613836A0014696C /* CollectionImageViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4F260ABA260F839700F6FAC7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4F260ABC260F840F00F6FAC7 /* IntExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		4FAFC322260CEC8000CF026A = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +108,41 @@
 		4FAFC32D260CEC8000CF026A /* Cardeal */ = {
 			isa = PBXGroup;
 			children = (
+				4F260ABA260F839700F6FAC7 /* Utils */,
+				4F260AA2260E74D500F6FAC7 /* Cells */,
+				4F260A9D260E6A3400F6FAC7 /* Model */,
+				4FAFC356260E105E00CF026A /* Login */,
+				4FAFC347260CEDE200CF026A /* Reusable Items */,
 				4FAFC32E260CEC8000CF026A /* AppDelegate.swift */,
 				4FAFC330260CEC8000CF026A /* SceneDelegate.swift */,
-				4FAFC332260CEC8000CF026A /* ViewController.swift */,
+				4FAFC332260CEC8000CF026A /* HomeViewController.swift */,
 				4FAFC334260CEC8000CF026A /* Main.storyboard */,
+				4F8699E026112DF70015AF80 /* CarDetailViewController.swift */,
+				4FAFC343260CEDAD00CF026A /* DemoData.swift */,
 				4FAFC337260CEC8100CF026A /* Assets.xcassets */,
 				4FAFC339260CEC8100CF026A /* LaunchScreen.storyboard */,
 				4FAFC33C260CEC8100CF026A /* Info.plist */,
 			);
 			path = Cardeal;
+			sourceTree = "<group>";
+		};
+		4FAFC347260CEDE200CF026A /* Reusable Items */ = {
+			isa = PBXGroup;
+			children = (
+				4FAFC34B260CF0AB00CF026A /* RoundedButton.swift */,
+				4F049578260E1B600067D0AB /* CardView.swift */,
+				4FAFC348260CF0A200CF026A /* ShadowCardView.swift */,
+			);
+			path = "Reusable Items";
+			sourceTree = "<group>";
+		};
+		4FAFC356260E105E00CF026A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4FAFC351260E101100CF026A /* LoginViewController.swift */,
+				4FAFC352260E101100CF026A /* LoginViewController.xib */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +161,9 @@
 			dependencies = (
 			);
 			name = Cardeal;
+			packageProductDependencies = (
+				4F260AAA260F657300F6FAC7 /* Kingfisher */,
+			);
 			productName = Cardeal;
 			productReference = 4FAFC32B260CEC8000CF026A /* Cardeal.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +191,9 @@
 				Base,
 			);
 			mainGroup = 4FAFC322260CEC8000CF026A;
+			packageReferences = (
+				4F260AA9260F657300F6FAC7 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 4FAFC32C260CEC8000CF026A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,8 +208,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FAFC354260E101100CF026A /* LoginViewController.xib in Resources */,
 				4FAFC33B260CEC8100CF026A /* LaunchScreen.storyboard in Resources */,
 				4FAFC338260CEC8100CF026A /* Assets.xcassets in Resources */,
+				4F260AB2260F76F500F6FAC7 /* CarCell.xib in Resources */,
 				4FAFC336260CEC8000CF026A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +223,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FAFC333260CEC8000CF026A /* ViewController.swift in Sources */,
+				4FAFC344260CEDAD00CF026A /* DemoData.swift in Sources */,
+				4F1D3B262613836A0014696C /* CollectionImageViewCell.swift in Sources */,
+				4FAFC34C260CF0AB00CF026A /* RoundedButton.swift in Sources */,
+				4FAFC349260CF0A200CF026A /* ShadowCardView.swift in Sources */,
+				4FAFC353260E101100CF026A /* LoginViewController.swift in Sources */,
+				4F260ABD260F840F00F6FAC7 /* IntExtensions.swift in Sources */,
+				4F260AB1260F76F500F6FAC7 /* CarCell.swift in Sources */,
+				4FAFC333260CEC8000CF026A /* HomeViewController.swift in Sources */,
+				4F260A9F260E6A7600F6FAC7 /* Car.swift in Sources */,
+				4F8699E126112DF80015AF80 /* CarDetailViewController.swift in Sources */,
 				4FAFC32F260CEC8000CF026A /* AppDelegate.swift in Sources */,
+				4F049579260E1B600067D0AB /* CardView.swift in Sources */,
 				4FAFC331260CEC8000CF026A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,11 +312,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -271,10 +368,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -341,6 +440,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4F260AA9260F657300F6FAC7 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4F260AAA260F657300F6FAC7 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F260AA9260F657300F6FAC7 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4FAFC323260CEC8000CF026A /* Project object */;
 }
