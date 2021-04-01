@@ -13,7 +13,15 @@ This project is written in Swift 5. The newest version  of kinfisher needs Xcode
 ## Development plan & TODOs
 Basic UI(done) -> Firebase Setting(currently working on) -> administration web app -> transaction API use 
 
-## IMPORTANT NOTICE
+## Screenshots
+<h3 align="center">
+<img src="screenshot1.png" />
+</h3>
+<h3 align="center">
+<img src="screenshot2.png" />
+</h3>
+
+## IMPORTANT NOTICEs
 1. If your mac is M1, you will see these IB Designables errors .
 
 <h3 align="center">
