@@ -24,6 +24,8 @@ Well,  this is Xcode bug caused by chip architecture. It does look ugly , but it
 
 2. It's  possible to see some autolayout warnings . It runs without those warnings on my mac, but it could happen on your environment . (I dont know why , possibly because autolayout is crappy.)
 
+3. The source control part of xcode with github  acts very weired. I will often do some "test" commits to  this repo to make sure my version control still works . Sorry about that.
+
 ## Author
 
 * Zhousenye Liu
