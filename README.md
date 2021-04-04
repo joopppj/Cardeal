@@ -1,5 +1,5 @@
 # Cardeal
-Side project Cardeal. pretty big one , still under development. 
+Side project Cardeal. Pretty big one. An showcase + deposit order app offered for supercar dealers .   Still under development. 
 
 [![Swift 5](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
 
