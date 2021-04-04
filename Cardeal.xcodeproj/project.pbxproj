@@ -14,6 +14,9 @@
 		4F260AB1260F76F500F6FAC7 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F260AAF260F76F500F6FAC7 /* CarCell.swift */; };
 		4F260AB2260F76F500F6FAC7 /* CarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F260AB0260F76F500F6FAC7 /* CarCell.xib */; };
 		4F260ABD260F840F00F6FAC7 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F260ABC260F840F00F6FAC7 /* IntExtensions.swift */; };
+		4F4CEB6826166E74009AA6C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F4CEB6726166E74009AA6C6 /* GoogleService-Info.plist */; };
+		4F4CEB8B261A1418009AA6C6 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4CEB8A261A1418009AA6C6 /* ViewControllerExtensions.swift */; };
+		4F4CEB8E261A1739009AA6C6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4CEB8D261A1739009AA6C6 /* StringExtensions.swift */; };
 		4F8699E126112DF80015AF80 /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8699E026112DF70015AF80 /* CarDetailViewController.swift */; };
 		4F9FDE8C2616074A00A909F9 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FDE8B2616074A00A909F9 /* OrderViewController.swift */; };
 		4FAFC32F260CEC8000CF026A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC32E260CEC8000CF026A /* AppDelegate.swift */; };
@@ -27,15 +30,20 @@
 		4FAFC34C260CF0AB00CF026A /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC34B260CF0AB00CF026A /* RoundedButton.swift */; };
 		4FAFC353260E101100CF026A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC351260E101100CF026A /* LoginViewController.swift */; };
 		4FAFC354260E101100CF026A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAFC352260E101100CF026A /* LoginViewController.xib */; };
+		CA86523F6638A627421FEABD /* Pods_Cardeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0F5E423B1112F014778664 /* Pods_Cardeal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C62F651A1346942AF6A6EB7 /* Pods-Cardeal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardeal.release.xcconfig"; path = "Target Support Files/Pods-Cardeal/Pods-Cardeal.release.xcconfig"; sourceTree = "<group>"; };
 		4F049578260E1B600067D0AB /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		4F1D3B252613836A0014696C /* CollectionImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionImageViewCell.swift; sourceTree = "<group>"; };
 		4F260A9E260E6A7600F6FAC7 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		4F260AAF260F76F500F6FAC7 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
 		4F260AB0260F76F500F6FAC7 /* CarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarCell.xib; sourceTree = "<group>"; };
 		4F260ABC260F840F00F6FAC7 /* IntExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		4F4CEB6726166E74009AA6C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4F4CEB8A261A1418009AA6C6 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
+		4F4CEB8D261A1739009AA6C6 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		4F8699E026112DF70015AF80 /* CarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
 		4F9FDE8B2616074A00A909F9 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		4FAFC32B260CEC8000CF026A /* Cardeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +59,8 @@
 		4FAFC34B260CF0AB00CF026A /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		4FAFC351260E101100CF026A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		4FAFC352260E101100CF026A /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		6B1CD8BDEC298B9741653BAE /* Pods-Cardeal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardeal.debug.xcconfig"; path = "Target Support Files/Pods-Cardeal/Pods-Cardeal.debug.xcconfig"; sourceTree = "<group>"; };
+		DC0F5E423B1112F014778664 /* Pods_Cardeal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cardeal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +69,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F260AAB260F657300F6FAC7 /* Kingfisher in Frameworks */,
+				CA86523F6638A627421FEABD /* Pods_Cardeal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2734160E5928A1A484E44D75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B1CD8BDEC298B9741653BAE /* Pods-Cardeal.debug.xcconfig */,
+				4C62F651A1346942AF6A6EB7 /* Pods-Cardeal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		37B1872A458889CAC74DF0F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC0F5E423B1112F014778664 /* Pods_Cardeal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4F260A9D260E6A3400F6FAC7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				4F260ABC260F840F00F6FAC7 /* IntExtensions.swift */,
+				4F4CEB8D261A1739009AA6C6 /* StringExtensions.swift */,
+				4F4CEB8A261A1418009AA6C6 /* ViewControllerExtensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -96,6 +126,8 @@
 			children = (
 				4FAFC32D260CEC8000CF026A /* Cardeal */,
 				4FAFC32C260CEC8000CF026A /* Products */,
+				2734160E5928A1A484E44D75 /* Pods */,
+				37B1872A458889CAC74DF0F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +156,7 @@
 				4F9FDE8B2616074A00A909F9 /* OrderViewController.swift */,
 				4FAFC337260CEC8100CF026A /* Assets.xcassets */,
 				4FAFC339260CEC8100CF026A /* LaunchScreen.storyboard */,
+				4F4CEB6726166E74009AA6C6 /* GoogleService-Info.plist */,
 				4FAFC33C260CEC8100CF026A /* Info.plist */,
 			);
 			path = Cardeal;
@@ -155,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FAFC33F260CEC8100CF026A /* Build configuration list for PBXNativeTarget "Cardeal" */;
 			buildPhases = (
+				987B01D55B73A5DA832E7131 /* [CP] Check Pods Manifest.lock */,
 				4FAFC327260CEC8000CF026A /* Sources */,
 				4FAFC328260CEC8000CF026A /* Frameworks */,
 				4FAFC329260CEC8000CF026A /* Resources */,
+				B1092A8DF54F2AB904C5482F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,10 +251,53 @@
 				4FAFC338260CEC8100CF026A /* Assets.xcassets in Resources */,
 				4F260AB2260F76F500F6FAC7 /* CarCell.xib in Resources */,
 				4FAFC336260CEC8000CF026A /* Main.storyboard in Resources */,
+				4F4CEB6826166E74009AA6C6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		987B01D55B73A5DA832E7131 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cardeal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1092A8DF54F2AB904C5482F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cardeal/Pods-Cardeal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cardeal/Pods-Cardeal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cardeal/Pods-Cardeal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4FAFC327260CEC8000CF026A /* Sources */ = {
@@ -234,11 +312,13 @@
 				4FAFC353260E101100CF026A /* LoginViewController.swift in Sources */,
 				4F260ABD260F840F00F6FAC7 /* IntExtensions.swift in Sources */,
 				4F260AB1260F76F500F6FAC7 /* CarCell.swift in Sources */,
+				4F4CEB8E261A1739009AA6C6 /* StringExtensions.swift in Sources */,
 				4FAFC333260CEC8000CF026A /* HomeViewController.swift in Sources */,
 				4F260A9F260E6A7600F6FAC7 /* Car.swift in Sources */,
 				4F8699E126112DF80015AF80 /* CarDetailViewController.swift in Sources */,
 				4FAFC32F260CEC8000CF026A /* AppDelegate.swift in Sources */,
 				4F049579260E1B600067D0AB /* CardView.swift in Sources */,
+				4F4CEB8B261A1418009AA6C6 /* ViewControllerExtensions.swift in Sources */,
 				4FAFC331260CEC8000CF026A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +466,7 @@
 		};
 		4FAFC340260CEC8100CF026A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1CD8BDEC298B9741653BAE /* Pods-Cardeal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -405,6 +486,7 @@
 		};
 		4FAFC341260CEC8100CF026A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C62F651A1346942AF6A6EB7 /* Pods-Cardeal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

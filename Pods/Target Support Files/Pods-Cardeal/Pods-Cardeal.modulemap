@@ -1,0 +1,6 @@
+framework module Pods_Cardeal {
+  umbrella header "Pods-Cardeal-umbrella.h"
+
+  export *
+  module * { export * }
+}

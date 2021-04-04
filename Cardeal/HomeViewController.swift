@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class HomeViewController: UIViewController {
 
@@ -21,15 +22,23 @@ class HomeViewController: UIViewController {
         title = "Models"
         cars = demoData
         
-        let loginViewController = LoginViewController()
-        
-        loginViewController.modalPresentationStyle = .fullScreen
-        
-        present(loginViewController, animated: true)
+        // to check if there is already logged-in user
         
         setupTableView()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        Auth.auth().addStateDidChangeListener { (auth, user) in
+            // if there is a user
+            if user == nil {
+                let loginViewController = LoginViewController()
+                loginViewController.modalPresentationStyle = .fullScreen
+                self.present(loginViewController, animated: true)
+            } else {
+                
+            }
+        }
+    }
     func setupTableView() {
         tableView.delegate = self
         tableView.dataSource = self
@@ -43,11 +52,17 @@ class HomeViewController: UIViewController {
     
         let logout = UIAlertAction (title: "Logout", style: .default) { (UIAlertAction) in
             // logout
-            let loginViewController = LoginViewController()
             
-            loginViewController.modalPresentationStyle = .fullScreen
-            
-            self.present(loginViewController, animated: true)
+            do{
+                try Auth.auth().signOut()
+                /*let loginViewController = LoginViewController()
+                
+                loginViewController.modalPresentationStyle = .fullScreen
+                
+                self.present(loginViewController, animated: true)*/
+            } catch { // error is not nil in catch block
+                    print(error.localizedDescription)
+            }
         }
         
         let manageAccounts = UIAlertAction(title: "Manage Accounts", style: .default) { (UIAlertAction) in

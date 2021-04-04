@@ -12,6 +12,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="Cardeal" customModuleProvider="target">
             <connections>
+                <outlet property="activityIndicator" destination="K3k-T5-JAt" id="7gO-GZ-TIk"/>
+                <outlet property="loginEmailText" destination="QBi-r5-R6c" id="sX0-5V-mgL"/>
+                <outlet property="loginPasswordText" destination="0fm-qh-5MT" id="uon-Xh-Xsh"/>
+                <outlet property="registerConfirmText" destination="Vzn-2a-rAf" id="UC1-WB-Zxz"/>
+                <outlet property="registerEmailText" destination="l5v-Au-EgE" id="QR8-0U-jmE"/>
+                <outlet property="registerPasswordText" destination="FNt-M7-x3g" id="ECG-dz-SOq"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -145,12 +151,12 @@
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FNt-M7-x3g">
                                     <rect key="frame" x="0.0" y="84.5" width="342" height="34"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits"/>
+                                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 </textField>
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vzn-2a-rAf">
                                     <rect key="frame" x="0.0" y="133.5" width="342" height="34"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits"/>
+                                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 </textField>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvh-7f-OEf" customClass="RoundedButton" customModule="Cardeal" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="182.5" width="342" height="40"/>
