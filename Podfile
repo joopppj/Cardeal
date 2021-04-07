@@ -7,5 +7,8 @@ target 'Cardeal' do
 
   # Pods for Cardeal
       pod 'Firebase/Auth'
+      pod 'Firebase/Functions'
+      pod 'Firebase/Firestore'
+      pod 'Stripe'
 
 end
