@@ -7,6 +7,8 @@
 
 import UIKit
 import FirebaseAuth
+import FirebaseFunctions
+import FirebaseFirestore
 
 class LoginViewController: UIViewController {
     
@@ -78,20 +80,27 @@ class LoginViewController: UIViewController {
             defer {
                 self.activityIndicator.stopAnimating()
             }
+            
+            let log:[String : Any] = [
+                "message": "a new user with email \(email) signed up.",
+                "timestamp": Timestamp()
+            ]
+            
+            Firestore.firestore().collection("logs").addDocument(data: log) // ignore completion handler for now
+            
+            // ask node.js (cloudfunctions) to create stripe user
+            Functions.functions().httpsCallable("createStripeUser").call(["email": email]) { (result, error) in
+                if let error = error {
+                    print(error.localizedDescription)
+                    return
+                }
+            }
+            
             self.dismiss(animated: true)
             
             
         }
         
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

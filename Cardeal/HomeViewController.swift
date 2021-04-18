@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseAuth
+import Stripe
 
 class HomeViewController: UIViewController {
 
@@ -14,6 +15,8 @@ class HomeViewController: UIViewController {
     
     var cars = [Car]()
     var selectedModel: Car?
+    
+    var paymentContext: STPPaymentContext!
     
     
     override func viewDidLoad() {
@@ -35,7 +38,10 @@ class HomeViewController: UIViewController {
                 loginViewController.modalPresentationStyle = .fullScreen
                 self.present(loginViewController, animated: true)
             } else {
-                
+                UserService.instance.getCurrentUser { 
+                    self.setupStripe()
+                    //print("current user updated: \(UserService.instance.currentUser?.email ?? "")")
+                }
             }
         }
     }
@@ -67,10 +73,12 @@ class HomeViewController: UIViewController {
         
         let manageAccounts = UIAlertAction(title: "Manage Accounts", style: .default) { (UIAlertAction) in
             //
+            
         }
         
         let manageCards = UIAlertAction(title: "Manage Cards", style: .default) { (UIAlertAction) in
             //
+            self.paymentContext.pushPaymentOptionsViewController()
         }
         
         let close = UIAlertAction(title: "Close", style: .cancel)
@@ -83,7 +91,12 @@ class HomeViewController: UIViewController {
         present(profileSheet, animated: true)
     }
 
-
+    func setupStripe() {
+        StripeWallet.instance.customerContext  = STPCustomerContext(keyProvider: MyAPIClient())
+        let config = STPPaymentConfiguration.shared
+        paymentContext = STPPaymentContext(customerContext: StripeWallet.instance.customerContext, configuration: config, theme: .defaultTheme)
+        paymentContext.hostViewController = self
+    }
 }
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {

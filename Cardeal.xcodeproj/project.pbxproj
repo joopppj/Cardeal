@@ -17,6 +17,10 @@
 		4F4CEB6826166E74009AA6C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F4CEB6726166E74009AA6C6 /* GoogleService-Info.plist */; };
 		4F4CEB8B261A1418009AA6C6 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4CEB8A261A1418009AA6C6 /* ViewControllerExtensions.swift */; };
 		4F4CEB8E261A1739009AA6C6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4CEB8D261A1739009AA6C6 /* StringExtensions.swift */; };
+		4F4CEBD226201693009AA6C6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4CEBD126201693009AA6C6 /* User.swift */; };
+		4F4CEBD626208C67009AA6C6 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4CEBD526208C67009AA6C6 /* UserService.swift */; };
+		4F4CEBD9262383DA009AA6C6 /* MyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4CEBD8262383DA009AA6C6 /* MyAPIClient.swift */; };
+		4F4CEBDC262389B9009AA6C6 /* StripeWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4CEBDB262389B9009AA6C6 /* StripeWallet.swift */; };
 		4F8699E126112DF80015AF80 /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8699E026112DF70015AF80 /* CarDetailViewController.swift */; };
 		4F9FDE8C2616074A00A909F9 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FDE8B2616074A00A909F9 /* OrderViewController.swift */; };
 		4FAFC32F260CEC8000CF026A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC32E260CEC8000CF026A /* AppDelegate.swift */; };
@@ -30,6 +34,7 @@
 		4FAFC34C260CF0AB00CF026A /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC34B260CF0AB00CF026A /* RoundedButton.swift */; };
 		4FAFC353260E101100CF026A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFC351260E101100CF026A /* LoginViewController.swift */; };
 		4FAFC354260E101100CF026A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAFC352260E101100CF026A /* LoginViewController.xib */; };
+		4FE805512627812500974B89 /* processingFeesCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE805502627812500974B89 /* processingFeesCal.swift */; };
 		CA86523F6638A627421FEABD /* Pods_Cardeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0F5E423B1112F014778664 /* Pods_Cardeal.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +49,10 @@
 		4F4CEB6726166E74009AA6C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4F4CEB8A261A1418009AA6C6 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
 		4F4CEB8D261A1739009AA6C6 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		4F4CEBD126201693009AA6C6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4F4CEBD526208C67009AA6C6 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		4F4CEBD8262383DA009AA6C6 /* MyAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAPIClient.swift; sourceTree = "<group>"; };
+		4F4CEBDB262389B9009AA6C6 /* StripeWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeWallet.swift; sourceTree = "<group>"; };
 		4F8699E026112DF70015AF80 /* CarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
 		4F9FDE8B2616074A00A909F9 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		4FAFC32B260CEC8000CF026A /* Cardeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +68,7 @@
 		4FAFC34B260CF0AB00CF026A /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		4FAFC351260E101100CF026A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		4FAFC352260E101100CF026A /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		4FE805502627812500974B89 /* processingFeesCal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = processingFeesCal.swift; sourceTree = "<group>"; };
 		6B1CD8BDEC298B9741653BAE /* Pods-Cardeal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardeal.debug.xcconfig"; path = "Target Support Files/Pods-Cardeal/Pods-Cardeal.debug.xcconfig"; sourceTree = "<group>"; };
 		DC0F5E423B1112F014778664 /* Pods_Cardeal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cardeal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -97,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				4F260A9E260E6A7600F6FAC7 /* Car.swift */,
+				4F4CEBD126201693009AA6C6 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -117,8 +128,19 @@
 				4F260ABC260F840F00F6FAC7 /* IntExtensions.swift */,
 				4F4CEB8D261A1739009AA6C6 /* StringExtensions.swift */,
 				4F4CEB8A261A1418009AA6C6 /* ViewControllerExtensions.swift */,
+				4FE805502627812500974B89 /* processingFeesCal.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		4F4CEBD426208C51009AA6C6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4F4CEBD526208C67009AA6C6 /* UserService.swift */,
+				4F4CEBDB262389B9009AA6C6 /* StripeWallet.swift */,
+				4F4CEBD8262383DA009AA6C6 /* MyAPIClient.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		4FAFC322260CEC8000CF026A = {
@@ -142,6 +164,7 @@
 		4FAFC32D260CEC8000CF026A /* Cardeal */ = {
 			isa = PBXGroup;
 			children = (
+				4F4CEBD426208C51009AA6C6 /* Services */,
 				4F260ABA260F839700F6FAC7 /* Utils */,
 				4F260AA2260E74D500F6FAC7 /* Cells */,
 				4F260A9D260E6A3400F6FAC7 /* Model */,
@@ -306,13 +329,18 @@
 			files = (
 				4FAFC344260CEDAD00CF026A /* DemoData.swift in Sources */,
 				4F1D3B262613836A0014696C /* CollectionImageViewCell.swift in Sources */,
+				4F4CEBD626208C67009AA6C6 /* UserService.swift in Sources */,
+				4F4CEBD9262383DA009AA6C6 /* MyAPIClient.swift in Sources */,
 				4FAFC34C260CF0AB00CF026A /* RoundedButton.swift in Sources */,
 				4F9FDE8C2616074A00A909F9 /* OrderViewController.swift in Sources */,
 				4FAFC349260CF0A200CF026A /* ShadowCardView.swift in Sources */,
 				4FAFC353260E101100CF026A /* LoginViewController.swift in Sources */,
 				4F260ABD260F840F00F6FAC7 /* IntExtensions.swift in Sources */,
+				4F4CEBDC262389B9009AA6C6 /* StripeWallet.swift in Sources */,
+				4F4CEBD226201693009AA6C6 /* User.swift in Sources */,
 				4F260AB1260F76F500F6FAC7 /* CarCell.swift in Sources */,
 				4F4CEB8E261A1739009AA6C6 /* StringExtensions.swift in Sources */,
+				4FE805512627812500974B89 /* processingFeesCal.swift in Sources */,
 				4FAFC333260CEC8000CF026A /* HomeViewController.swift in Sources */,
 				4F260A9F260E6A7600F6FAC7 /* Car.swift in Sources */,
 				4F8699E126112DF80015AF80 /* CarDetailViewController.swift in Sources */,

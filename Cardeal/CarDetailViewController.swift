@@ -38,7 +38,8 @@ class CarDetailViewController: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         
-        
+        let processingFee = processingFeesCal.calculateProcessingFee(subtotal: car.price * 100) // processing fee in cents
+        print(processingFee)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
