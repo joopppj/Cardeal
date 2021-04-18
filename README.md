@@ -11,7 +11,7 @@ just opening with your xcode should fine
 This project is written in Swift 5. The newest version  of kinfisher needs Xcode 12 to import, so it requires Xcode 12 or newer to build and run.( using xcode 11 will cause compile error )
 
 ## Development plan & TODOs
-Basic UI(done) -> Firebase Setting(currently working on) -> administration web app -> transaction API use 
+Basic UI(done) -> Firebase Setting(done) ->  strip API ( currently working on)-> administration web app -> transaction API use 
 
 ## Screenshots
 <h3 align="center">
