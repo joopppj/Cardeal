@@ -17,4 +17,13 @@ extension Int {
         return formatter.string(from: NSNumber(value: self)) ?? ""
         //let nsnum = NSNumber(integerLiteral: self / 1000)
     }
+    func formatToDecimalPrice() -> String {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        formatter.locale = Locale(identifier: "en_US")
+        formatter.maximumFractionDigits = 2
+        
+        return formatter.string(from: NSNumber(value: self)) ?? ""
+        //let nsnum = NSNumber(integerLiteral: self / 1000)
+    }
 }

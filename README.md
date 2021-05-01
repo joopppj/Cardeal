@@ -11,7 +11,7 @@ just opening with your xcode should fine
 This project is written in Swift 5. The newest version  of kinfisher needs Xcode 12 to import, so it requires Xcode 12 or newer to build and run.( using xcode 11 will cause compile error )
 
 ## Development plan & TODOs
-Basic UI(done) -> Firebase Setting(done) ->  strip API ( currently working on)-> administration web app -> transaction API use 
+Basic UI(done) -> Firebase Setting(done) ->  stripe API (done)-> administration web app (currently working on)-> transaction API use 
 
 ## Screenshots
 <h3 align="center">
@@ -32,7 +32,7 @@ Well,  this is Xcode bug caused by chip architecture. It does look ugly , but it
 
 2. It's  possible to see some autolayout warnings . It runs without those warnings on my mac, but it could happen on your environment . (I dont know why , possibly because autolayout is crappy.)
 
-3. The source control part of xcode with github  acts very weired. I will often do some "test" commits to  this repo to make sure my version control still works . Sorry about that.
+3. The version control part of xcode with github  acts very weired. I will often do some "test" commits to  this repo to make sure my version control still works . Sorry about that.
 
 ## Author
 

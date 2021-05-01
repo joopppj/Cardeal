@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cDj-Jx-dkB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cDj-Jx-dkB">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -446,6 +446,9 @@
                                                             <constraint firstAttribute="width" constant="79" id="Iif-mW-p8Z"/>
                                                         </constraints>
                                                         <state key="normal" image="credit-card"/>
+                                                        <connections>
+                                                            <action selector="changeCardClicked:" destination="oOU-Ku-hc8" eventType="touchUpInside" id="tHD-rF-jq6"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0h-L2-OZk">
                                                         <rect key="frame" x="178" y="0.0" width="79" height="79"/>
@@ -453,6 +456,9 @@
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="79" id="p3V-FA-Zg6"/>
                                                         </constraints>
                                                         <state key="normal" title="Button" image="bank"/>
+                                                        <connections>
+                                                            <action selector="changeBankClicked:" destination="oOU-Ku-hc8" eventType="touchUpInside" id="WV2-kA-5kS"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -500,6 +506,9 @@
                                                 <real key="value" value="20"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="orderClicked:" destination="oOU-Ku-hc8" eventType="touchUpInside" id="ovG-dR-H1Y"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
