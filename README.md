@@ -2,12 +2,15 @@
 Side project Cardeal. Pretty big one. An showcase + deposit order app offered for supercar dealers .   Still under development. 
 
 [![Swift 5](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
+
+
+## Screenshots
 <h7 align="left">
-<img src="screenshots.gif" />
+<img src="screenshots.gif" style="width:200px;" />
 </h7>
 
 ## Getting Started
-just opening with your xcode should fine
+Just opening Cardeal.xcworkspace with your xcode should fine, but remember to wait for importing external library and use iphone 12 as emulator.
 
 ## Compatibility
 This project is written in Swift 5. The newest version  of kinfisher needs Xcode 12 to import, so it requires Xcode 12 or newer to build and run.( using xcode 11 will cause compile error )
