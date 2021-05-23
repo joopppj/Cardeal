@@ -6,7 +6,7 @@ Side project Cardeal. Pretty big one. An showcase + deposit order app offered fo
 
 ## Screenshots
 <h7 align="left">
-<img src="screenshots.gif" style="width:100px;" />
+<img src="screenshots.gif" width="200" />
 </h7>
 
 ## Getting Started
