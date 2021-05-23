@@ -2,9 +2,9 @@
 Side project Cardeal. Pretty big one. An showcase + deposit order app offered for supercar dealers .   Still under development. 
 
 [![Swift 5](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
-<h3 align="center">
+<h4 align="left">
 <img src="screenshots.gif" />
-</h3>
+</h4>
 
 ## Getting Started
 just opening with your xcode should fine
